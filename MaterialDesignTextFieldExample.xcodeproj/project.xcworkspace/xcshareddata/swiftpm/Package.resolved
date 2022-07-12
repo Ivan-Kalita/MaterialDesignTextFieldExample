@@ -3,10 +3,10 @@
     {
       "identity" : "materialdesigntextfield",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/lazarevzubov/MaterialDesignTextField.git",
+      "location" : "https://github.com/Ivan-Kalita/MaterialDesignTextField",
       "state" : {
         "branch" : "main",
-        "revision" : "4c2e16ab264be0015dee0a50390f64cd9823d3d4"
+        "revision" : "3300675f8ad2c67c4896a15958531a549ee2580e"
       }
     }
   ],

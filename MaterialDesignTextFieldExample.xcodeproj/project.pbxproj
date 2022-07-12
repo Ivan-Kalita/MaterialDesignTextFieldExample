@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD6C01B6283A751C00663C9E /* MaterialDesignTextFieldExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C01B5283A751C00663C9E /* MaterialDesignTextFieldExampleApp.swift */; };
+		84611521287D915E0015A6BE /* LegacyMaterialDesignTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 84611520287D915E0015A6BE /* LegacyMaterialDesignTextField */; };
+		DD6C01B6283A751C00663C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C01B5283A751C00663C9E /* AppDelegate.swift */; };
 		DD6C01B8283A751C00663C9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C01B7283A751C00663C9E /* ContentView.swift */; };
 		DD6C01BA283A751E00663C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6C01B9283A751E00663C9E /* Assets.xcassets */; };
 		DD6C01BD283A751E00663C9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6C01BC283A751E00663C9E /* Preview Assets.xcassets */; };
-		DD6C01C5283A755300663C9E /* MaterialDesignTextField in Frameworks */ = {isa = PBXBuildFile; productRef = DD6C01C4283A755300663C9E /* MaterialDesignTextField */; };
 		DD6C01C8283A759600663C9E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C01C7283A759600663C9E /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD6C01B2283A751C00663C9E /* MaterialDesignTextFieldExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialDesignTextFieldExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD6C01B5283A751C00663C9E /* MaterialDesignTextFieldExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialDesignTextFieldExampleApp.swift; sourceTree = "<group>"; };
+		84611522287D92B60015A6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DD6C01B2283A751C00663C9E /* LegacyMaterialDesignTextFieldExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegacyMaterialDesignTextFieldExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6C01B5283A751C00663C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD6C01B7283A751C00663C9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD6C01B9283A751E00663C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD6C01BC283A751E00663C9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -31,13 +32,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6C01C5283A755300663C9E /* MaterialDesignTextField in Frameworks */,
+				84611521287D915E0015A6BE /* LegacyMaterialDesignTextField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8461151F287D915E0015A6BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD6C01A9283A751C00663C9E = {
 			isa = PBXGroup;
 			children = (
@@ -45,13 +53,14 @@
 				DD6C01C9283A778200663C9E /* LICENSE */,
 				DD6C01CA283A778800663C9E /* README.md */,
 				DD6C01B3283A751C00663C9E /* Products */,
+				8461151F287D915E0015A6BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DD6C01B3283A751C00663C9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD6C01B2283A751C00663C9E /* MaterialDesignTextFieldExample.app */,
+				DD6C01B2283A751C00663C9E /* LegacyMaterialDesignTextFieldExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,10 +68,11 @@
 		DD6C01B4283A751C00663C9E /* MaterialDesignTextFieldExample */ = {
 			isa = PBXGroup;
 			children = (
+				84611522287D92B60015A6BE /* Info.plist */,
 				DD6C01C6283A757500663C9E /* Content */,
 				DD6C01BB283A751E00663C9E /* Preview Content */,
 				DD6C01B9283A751E00663C9E /* Assets.xcassets */,
-				DD6C01B5283A751C00663C9E /* MaterialDesignTextFieldExampleApp.swift */,
+				DD6C01B5283A751C00663C9E /* AppDelegate.swift */,
 			);
 			path = MaterialDesignTextFieldExample;
 			sourceTree = "<group>";
@@ -101,10 +111,10 @@
 			);
 			name = MaterialDesignTextFieldExample;
 			packageProductDependencies = (
-				DD6C01C4283A755300663C9E /* MaterialDesignTextField */,
+				84611520287D915E0015A6BE /* LegacyMaterialDesignTextField */,
 			);
 			productName = MaterialDesignTextFieldExample;
-			productReference = DD6C01B2283A751C00663C9E /* MaterialDesignTextFieldExample.app */;
+			productReference = DD6C01B2283A751C00663C9E /* LegacyMaterialDesignTextFieldExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +142,7 @@
 			);
 			mainGroup = DD6C01A9283A751C00663C9E;
 			packageReferences = (
-				DD6C01C3283A755300663C9E /* XCRemoteSwiftPackageReference "MaterialDesignTextField" */,
+				8410BCE2287D8F3500931243 /* XCRemoteSwiftPackageReference "MaterialDesignTextField" */,
 			);
 			productRefGroup = DD6C01B3283A751C00663C9E /* Products */;
 			projectDirPath = "";
@@ -161,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD6C01B8283A751C00663C9E /* ContentView.swift in Sources */,
-				DD6C01B6283A751C00663C9E /* MaterialDesignTextFieldExampleApp.swift in Sources */,
+				DD6C01B6283A751C00663C9E /* AppDelegate.swift in Sources */,
 				DD6C01C8283A759600663C9E /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -273,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -294,7 +304,7 @@
 				DEVELOPMENT_TEAM = 5P57GECZ2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MaterialDesignTextFieldExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -304,8 +314,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lazarev-zubov.MaterialDesignTextFieldExample";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivan-kalita.MaterialDesignTextFieldExampleLegacy";
+				PRODUCT_NAME = LegacyMaterialDesignTextFieldExample;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +333,7 @@
 				DEVELOPMENT_TEAM = 5P57GECZ2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MaterialDesignTextFieldExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -333,8 +343,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lazarev-zubov.MaterialDesignTextFieldExample";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivan-kalita.MaterialDesignTextFieldExampleLegacy";
+				PRODUCT_NAME = LegacyMaterialDesignTextFieldExample;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -365,9 +375,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DD6C01C3283A755300663C9E /* XCRemoteSwiftPackageReference "MaterialDesignTextField" */ = {
+		8410BCE2287D8F3500931243 /* XCRemoteSwiftPackageReference "MaterialDesignTextField" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/lazarevzubov/MaterialDesignTextField.git";
+			repositoryURL = "https://github.com/Ivan-Kalita/MaterialDesignTextField";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -376,10 +386,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DD6C01C4283A755300663C9E /* MaterialDesignTextField */ = {
+		84611520287D915E0015A6BE /* LegacyMaterialDesignTextField */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DD6C01C3283A755300663C9E /* XCRemoteSwiftPackageReference "MaterialDesignTextField" */;
-			productName = MaterialDesignTextField;
+			package = 8410BCE2287D8F3500931243 /* XCRemoteSwiftPackageReference "MaterialDesignTextField" */;
+			productName = LegacyMaterialDesignTextField;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
